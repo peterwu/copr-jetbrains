@@ -6,7 +6,7 @@
 %global         source_name pycharm-community
 
 Name:           jetbrains-pycharm-ce
-Version:        2020.3
+Version:        2020.3.1
 Release:        1%{?dist}
 Summary:        JetBrain PyCharm Community Edition
 
@@ -50,6 +50,8 @@ find %{_builddir}/%{source_name}-%{version}/bin -type f -name '*.py' -exec sed -
 /opt/jetbrains/pycharm-ce/*
 
 %changelog
+* Wed Dec 23 04:52:23 PM EST 2020 Peter Wu
+- PyCharm CE 2020.3.1
 * Wed Dec  2 17:48:36 EST 2020 Peter Wu <peterwu@hotmail.com>
 - PyCharm CE 2020.3
 * Fri Nov 27 09:43:05 EST 2020 Peter Wu <peterwu@hotmail.com>
