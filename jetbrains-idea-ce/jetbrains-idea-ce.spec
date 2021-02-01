@@ -1,9 +1,9 @@
 %global         source_name idea-IC
 %global         debug_package %{nil}
-%global         build_version 203.6682.168
+%global         build_version 203.7148.57
 
 Name:           jetbrains-idea-ce
-Version:        2020.3.1
+Version:        2020.3.2
 Release:        1%{?dist}
 Summary:        JetBrains IntelliJ IDEA Community Edition
 
@@ -43,9 +43,14 @@ find %{_builddir}/%{source_name}-%{build_version}/bin -type f -name '*.py' -exec
 /opt/jetbrains/idea-ce/*
 
 %changelog
+* Sun Jan 31 22:29:34 EST 2021 Peter Wu
+- IntelliJ IDEA 2020.3.2
+
 * Thu Dec 31 15:53:48 EST 2020 Peter Wu
 - IntelliJ IDEA 2020.3.1
+
 * Wed Dec  2 17:48:36 EST 2020 Peter Wu <peterwu@hotmail.com>
 - IntelliJ IDEA 2020.3
+
 * Fri Nov 27 10:45:18 EST 2020 Peter Wu <peterwu@hotmail.com>
 - IntelliJ IDEA 2020.2.4
