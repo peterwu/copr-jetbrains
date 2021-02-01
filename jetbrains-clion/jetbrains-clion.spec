@@ -6,7 +6,7 @@
 %global         source_name clion
 
 Name:           jetbrains-clion
-Version:        2020.3.1
+Version:        2020.3.2
 Release:        1%{?dist}
 Summary:        JetBrains' C/C++ IDE.
 
@@ -56,6 +56,8 @@ find %{_builddir}/%{source_name}-%{version}/bin -type f -name '*.py' -exec sed -
 /opt/jetbrains/clion/*
 
 %changelog
+* Sun Jan 31 22:25:29 EST 2021 Peter Wu
+- CLion-2020.3.2
 * Thu Dec 31 15:51:49 EST 2020 Peter Wu
 - CLion-2020.3.1
 * Wed Dec  2 17:44:16 EST 2020 Peter Wu <peterwu@hotmail.com>
